@@ -1,0 +1,5 @@
+pipeline:
+  docker:
+    image: plugins/docker
+    repo: fortran01/k8s-kubectl
+    secrets: [ docker_username, docker_password ]
